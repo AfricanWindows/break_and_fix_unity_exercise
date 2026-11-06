@@ -1,19 +1,24 @@
 # Break it, fix it
 
-Small Unity projects with planted bugs. Each folder is its own Unity project: open the folder you need with **Unity Hub → Add → Add project from disk**. Pick the project folder (for example `Screens`), not the repo folder itself: Unity Hub answers "Please add a valid project" if you pick `break-and-fix`.
+One Unity project full of small broken games. Each scene is one exercise with planted bugs: find them before your players do.
 
-| Folder | Topic | What's broken |
-| --- | --- | --- |
-| `Screens/` | Screens, touch and the Android build | Five bugs that only show up on real phones |
+## Open it
 
-## Screens
+1. Clone this repo.
+2. Unity Hub → **Add** → **Add project from disk** → pick the cloned `break-and-fix` folder. Open it with the same Unity version you use in class.
+3. Open the exercise's scene from `Assets/Scenes`.
+
+| Scene | Exercise |
+| --- | --- |
+| `01_PhoneBugs` | Five bugs that only show up on real phones |
+
+## 01_PhoneBugs
 
 A tiny game: tap the green button to earn a coin. Every coin makes the orange box spin faster.
 
-1. Clone this repo.
-2. Unity Hub → **Add** → **Add project from disk** → pick the `Screens` folder inside the repo (not `break-and-fix` itself). Open it with the same Unity version you use in class.
-3. Open `Assets/Scenes/Main.unity`.
-4. Look at the game in the **Device Simulator** (Window → General → Device Simulator). Try a phone with a camera hole and an old 16:9 phone. Then build it to a real Android phone.
+1. Open `Assets/Scenes/01_PhoneBugs.unity`.
+2. Look at the game in the **Device Simulator** (Window → General → Device Simulator). Try a phone with a camera hole and an old 16:9 phone.
+3. Build it to a real Android phone (File → Build Profiles → Android → Build And Run).
 
 For each bug, write down:
 
