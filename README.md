@@ -10,13 +10,13 @@ One Unity project full of small broken games. Each scene is one exercise with pl
 
 | Scene | Exercise |
 | --- | --- |
-| `01_PhoneBugs` | Six bugs that only show up on real phones |
+| `01_ShipToPhone` | Six bugs that only show up on real phones |
 
-## 01_PhoneBugs
+## 01_ShipToPhone
 
 A tiny game: tap the green button to earn a coin. Every coin makes the orange box spin faster.
 
-1. Open `Assets/Scenes/01_PhoneBugs.unity`.
+1. Open `Assets/Scenes/01_ShipToPhone.unity`.
 2. Look at the game in the **Device Simulator** (Window → General → Device Simulator). Try a phone with a camera hole and an old 16:9 phone.
 3. Build it to a real Android phone (File → Build Profiles → Android → Build And Run).
 
