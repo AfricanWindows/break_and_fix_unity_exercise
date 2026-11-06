@@ -10,7 +10,7 @@ One Unity project full of small broken games. Each scene is one exercise with pl
 
 | Scene | Exercise |
 | --- | --- |
-| `01_PhoneBugs` | Five bugs that only show up on real phones |
+| `01_PhoneBugs` | Six bugs that only show up on real phones |
 
 ## 01_PhoneBugs
 
@@ -32,5 +32,6 @@ Hints, if you're stuck:
 - Look at Edit → Project Settings → Player → Android tab.
 - Install your build and your neighbour's build on the same phone. What happens?
 - Did it install on every phone in your pair?
+- Can you hit the button with your thumb, on every phone?
 
-Fix all five, build again, and show the fixed game running on a phone.
+Fix all six, build again, and show the fixed game running on a phone.
