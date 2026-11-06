@@ -35,3 +35,5 @@ Hints, if you're stuck:
 - Can you hit the button with your thumb, on every phone?
 
 Fix all six, build again, and show the fixed game running on a phone.
+
+**After the exercise:** the fixed game and the answers are on the `solution` branch (`git checkout solution`, then read `SOLUTION.md`). Try it yourself first.
