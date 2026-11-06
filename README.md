@@ -1,6 +1,6 @@
 # Break it, fix it
 
-Small Unity projects with planted bugs. Each folder is its own Unity project: open the folder you need with **Unity Hub → Add → Add project from disk**.
+Small Unity projects with planted bugs. Each folder is its own Unity project: open the folder you need with **Unity Hub → Add → Add project from disk**. Pick the project folder (for example `Screens`), not the repo folder itself: Unity Hub answers "Please add a valid project" if you pick `break-and-fix`.
 
 | Folder | Topic | What's broken |
 | --- | --- | --- |
@@ -11,7 +11,7 @@ Small Unity projects with planted bugs. Each folder is its own Unity project: op
 A tiny game: tap the green button to earn a coin. Every coin makes the orange box spin faster.
 
 1. Clone this repo.
-2. Unity Hub → **Add** → **Add project from disk** → pick the `Screens` folder. Open it with the same Unity version you use in class.
+2. Unity Hub → **Add** → **Add project from disk** → pick the `Screens` folder inside the repo (not `break-and-fix` itself). Open it with the same Unity version you use in class.
 3. Open `Assets/Scenes/Main.unity`.
 4. Look at the game in the **Device Simulator** (Window → General → Device Simulator). Try a phone with a camera hole and an old 16:9 phone. Then build it to a real Android phone.
 
